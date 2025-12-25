@@ -14,7 +14,7 @@ export const educationData = [
   {
     level: "Secondary School (10th Grade)",
     specialization: "General Education",
-    institution: "Sri Chaitanya Techno School",
+    institution: "Geetanjali Olympiad High School",
     duration: "2020",
   }
 ];
