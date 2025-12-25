@@ -6,9 +6,12 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         
         {/* Logo */}
-        <h1 className="text-xl font-bold text-sky-400">
-          Aditya Vardhan 
-        </h1>
+        <NavLink
+  to="/"
+  className="text-xl font-bold text-sky-400 hover:text-sky-300 transition"
+>
+  Aditya Vardhan
+</NavLink>
 
         {/* Links */}
         <ul className="hidden md:flex gap-6 text-slate-300 font-medium">
