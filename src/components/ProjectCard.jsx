@@ -4,30 +4,46 @@ const ProjectCard = ({ title, description, technologies, github, demo }) => {
   return (
     <div className="group relative bg-slate-900/40 backdrop-blur-md border border-slate-800 rounded-2xl p-8 hover:border-sky-500/50 transition-all duration-500 flex flex-col h-full">
       
-      {/* Top Row: Folder Icon & Links */}
+      {/* Top Row */}
       <div className="flex justify-between items-center mb-6">
         <div className="text-sky-400">
           <Folder size={32} strokeWidth={1.5} />
         </div>
+
         <div className="flex gap-4 text-slate-400">
+          {/* GitHub */}
           {github && (
-            <a href={github} target="_blank" rel="noreferrer" className="hover:text-sky-400 transition-colors">
+            <a
+              href={github}
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-sky-400 transition-colors"
+            >
               <Github size={22} />
             </a>
           )}
+
+          {/* Demo → ONLY if demo exists (Resumer.io) */}
           {demo && (
-            <a href={demo} target="_blank" rel="noreferrer" className="hover:text-sky-400 transition-colors">
-              <ExternalLink size={22} />
+            <a
+              href={demo}
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center gap-1 hover:text-sky-400 transition-colors"
+            >
+              <ExternalLink size={20} />
+              <span className="text-xs font-medium">Demo</span>
             </a>
           )}
         </div>
       </div>
 
-      {/* Content */}
+      {/* Title */}
       <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-sky-400 transition-colors">
         {title}
       </h3>
 
+      {/* Description */}
       <ul className="space-y-3 text-slate-400 mb-6 flex-grow">
         {description.map((point, index) => (
           <li key={index} className="flex items-start gap-2 text-sm leading-relaxed">

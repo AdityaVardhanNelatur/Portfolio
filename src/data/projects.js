@@ -8,7 +8,7 @@ export const projectsData = [
     ],
     technologies: ["React", "Node.js", "Express", "MongoDB", "JWT"],
     github: "https://github.com/AdityaVardhanNelatur/Resumer.io-Resume-Builder",
-    demo: ""
+    demo: "https://resumer-io-resume-bui-git-309b6a-adityavardhannelaturs-projects.vercel.app/login"
   },
   {
     title: "Credit Card Fraud Detection",
