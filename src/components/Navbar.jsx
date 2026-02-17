@@ -48,7 +48,7 @@ const Navbar = () => {
 
         {/* Desktop Resume */}
         <a
-          href="/resume.pdf"
+          href="/Aditya_Vardhan_.pdf"
           download
           className="hidden md:inline-block px-4 py-2 rounded-md bg-sky-400 text-slate-900 font-semibold hover:bg-sky-300 transition"
         >
@@ -86,7 +86,7 @@ const Navbar = () => {
 
             {/* Mobile Resume */}
             <a
-              href="/resume.pdf"
+              href="/Aditya_Vardhan_.pdf"
               download
               className="mt-2 inline-block text-center px-4 py-2 rounded-md bg-sky-400 text-slate-900 font-semibold hover:bg-sky-300 transition"
             >
