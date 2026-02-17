@@ -31,5 +31,15 @@ export const projectsData = [
     technologies: ["Java", "MySQL", "JDBC"],
     github: "https://github.com/AdityaVardhanNelatur/Java-Banking-Application",
     demo: ""
+  },
+  {
+    title: "JobSphere – MERN Stack Job Portal",
+    description: [
+      "Built a secure full-stack MERN job portal with JWT authentication, role-based access (Admin/User), and real-time dashboards for managing jobs, resumes, and application status.",
+      "Implemented an end-to-end recruitment workflow including job posting, resume uploads, application tracking (Pending, Shortlisted, Rejected), admin shortlisting, and interview scheduling."
+    ],
+    technologies: ["React", "Node.js", "Express", "MongoDB", "JWT"],
+    github: "https://github.com/AdityaVardhanNelatur/JobSphere-MERN-Stack",
+    demo: "https://jobsphere-portal.vercel.app/"
   }
 ];
